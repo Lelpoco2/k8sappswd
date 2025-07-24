@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-container-k8sappswd
-          image: tuouser/k8sappswd:latest  # Sostituisci 'tuouser' con il tuo username Docker Hub
+          image: k8sappswd:v1 
           imagePullPolicy: IfNotPresent  # Use IfNotPresent to avoid pulling the image if it already exists
           ports:
           - containerPort: 5000
