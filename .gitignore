@@ -1,0 +1,26 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+
+# Ambiente virtuale
+venv/
+env/
+
+# File temporanei
+*.log
+*.tmp
+
+# File di configurazione IDE
+.vscode/
+.idea/
+
+# File Docker
+*.pid
+
+# File di sistema
+.DS_Store
+
+# Dipendenze scaricate
+*.egg-info/
+dist/
+build/
